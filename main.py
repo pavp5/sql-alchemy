@@ -84,7 +84,7 @@ def get_shops(publisher, engine):
 
 
 if __name__ == "__main__":
-    DSN = "postgresql://postgres:ps3rpos6@localhost:5432/bookshop_db"
+    DSN = "postgresql://postgres:postgres@localhost:5432/bookshop_db"
     engine = sqlalchemy.create_engine(DSN)
 
     # Создание таблиц БД
